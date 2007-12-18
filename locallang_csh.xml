@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- $Id: locallang_csh.xml 200 2007-09-29 20:49:42Z dima $ -->
+<T3locallang>
+    <meta type="array">
+        <description>CSH labels</description>
+        <type>CSH</type>
+        <csh_table>album3x</csh_table>
+        <fileId>EXT:album3x/locallang_csh_ttnews.xml</fileId>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="hidden.description">Hide</label>
+            <label index="hidden.details">Hides image if checked.</label>
+            <label index="hidden.seeAlso"></label>
+            <label index="starttime.description">Start time</label>
+            <label index="starttime.details">Display this image starting from this time. Requires manual FE cache cleaning after start time!</label>
+            <label index="starttime.seeAlso"></label>
+            <label index="endtime.description">End time</label>
+            <label index="endtime.details">Stop displaying this image after this time. Requires manual FE cache cleaning after end time!</label>
+            <label index="endtime.seeAlso"></label>
+            <label index="title.description">Title</label>
+            <label index="title.details">Image title. Displayed below the image and as information tooltip.</label>
+            <label index="title.seeAlso"></label>
+            <label index="description.description">Description</label>
+            <label index="description.details">Image description. Displayed below image title when single image is displayed.</label>
+            <label index="description.seeAlso"></label>
+            <label index="image.description">Image</label>
+            <label index="image.details">Image to display</label>
+            <label index="image.seeAlso"></label>
+            <label index="realurl_alias.description">RealURL alias</label>
+            <label index="realurl_alias.details">This field is generated automatically and becomes part of URL to the image. Modify only if you know what you what characters are allowed!</label>
+            <label index="realurl_alias.seeAlso"></label>
+        </languageKey>
+    </data>
+</T3locallang>

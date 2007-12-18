@@ -1,0 +1,7 @@
+2007-12-18 Dmitry Dulepov  <dmitry@typo3.org>
+
+	* Fixed bug: possible error about undefined classes t3lib_refindex and t3lib_BEfunc
+
+2007-10-06 Dmitry Dulepov  <dmitry@typo3.org>
+
+	* Initial release

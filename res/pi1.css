@@ -1,0 +1,14 @@
+.tx-album3x-pi1-imagelist-wrap { padding: 5px 5px; border: 1px solid #B0B0B0; text-align: center; }
+.tx-album3x-pi1-imagelist-table { margin: 0 auto; }
+.tx-album3x-pi1-imagelist-title { font-weight: bold; text-align: center; font-size: 12px; }
+.tx-album3x-pi1-singleimage-title { font-weight: bold; margin-top: 3px; }
+.tx-album3x-pi1-singleimage-desc { margin: 10px 0; text-align: justify; }
+
+.tx-album3x-pi1-imagelist-col { padding: 3px 5px; }
+.tx-album3x-pi1-imagelist-col IMG, .tx-album3x-pi1-singleimage IMG { float: none; margin: 5px 5px; border: 1px solid #B0B0B0; padding:5px; }
+
+.tx-album3x-page-browser { text-align: center; margin: 15px 0; padding: 5px 5px; border: 1px solid #B0B0B0; }
+.tx-album3x-page-browser-current, .tx-nccommerce-page-browser A { padding: 0 3px; }
+
+.tx-album3x-pi1-singleimage { text-align: center; }
+.tx-album3x-pi1-singleimage-image { float: none; }

@@ -1,0 +1,26 @@
+config.meaningfulTempFilePrefix = 1
+
+plugin.tx_album3x_pi1 = USER
+plugin.tx_album3x_pi1 {
+	userFunc = tx_album3x_pi1->main
+
+	thumbnailWidth = 150
+	thumbnailHeight = 112
+	midImageWidth = 450
+	midImageHeight = 335
+	columns = 4
+	rows = 3
+	storagePid =
+	templateFile = EXT:album3x/res/pi1.html
+
+	thumbnailCObj = IMG_RESOURCE
+	thumbnailCObj {
+		file {
+			import.current = 1
+			width = $width
+			height = $height
+		}
+	}
+
+	midImageCObj < .thumbnailCObj
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>3X Album Template</title>
+<!-- ###HEADER_ADDITIONS### -->
+<link rel="stylesheet" href="###SITE_REL_PATH###res/pi1.css" />
+<!-- ###HEADER_ADDITIONS### -->
+</head>
+
+<body>
+<h1>3X Album template</h1>
+<br />
+<br />
+<br />
+<pre>
+
+<!-- ###IMAGE_LIST### begin
+	This is the template for image list
+-->
+<div class="tx-album3x-pi1-imagelist">
+
+	<div class="tx-album3x-pi1-imagelist-wrap">
+
+		<table class="tx-album3x-pi1-imagelist-table">
+
+		<!-- ###IMAGE_ROW### begin -->
+		<tr class="tx-album3x-pi1-imagelist-row">
+
+			###IMAGE_COLUMN###
+
+		</tr>
+		<!-- ###IMAGE_ROW### end -->
+
+		</table>
+
+	</div>
+
+	<!-- ###PAGE_BROWSER### begin
+		Page browser for comments. Possible markers are:
+			LINK_PREV		- link to previous page
+			LINK_NEXT		- link to next page
+			CUR_PAGE		- current page number
+			LINK_FIRST		- link to first page
+			LINK_LAST		- link to last page
+		Wrapping subsections must exist if corresponding marker from above exists.
+	-->
+	<div class="tx-album3x-page-browser">
+		<!-- ###LINK_FIRST_WRAP### begin -->
+			<a href="###LINK_FIRST###">First</a>
+		<!-- ###LINK_FIRST_WRAP### end -->
+		<!-- ###LINK_PREV_WRAP### begin -->
+			<a href="###LINK_PREV###">Previous</a>
+		<!-- ###LINK_PREV_WRAP### end -->
+		<span class="tx-album3x-page-browser-current">###CUR_PAGE###</span>
+		<!-- ###LINK_NEXT_WRAP### begin -->
+			<a href="###LINK_NEXT###">Next</a>
+		<!-- ###LINK_NEXT_WRAP### end -->
+		<!-- ###LINK_LAST_WRAP### begin -->
+			<a href="###LINK_LAST###">Last</a>
+		<!-- ###LINK_LAST_WRAP### end -->
+	</div>
+	<!-- ###PAGE_BROWSER### end -->
+
+</div>
+<!-- ###IMAGE_LIST### end -->
+
+<!-- ###IMAGELIST_COLUMN### begin -->
+<td class="tx-album3x-pi1-imagelist-col">
+	<a href="###SINGLEVIEW_URL###" title="###IMAGE_TITLE###"><img src="###IMAGE_URL###" alt="###IMAGE_TITLE###" width="###IMAGE_WIDTH###" height="###IMAGE_HEIGHT###" /></a>
+	<div class="tx-album3x-pi1-imagelist-title">###IMAGE_TITLE###</div>
+</td>
+<!-- ###IMAGELIST_COLUMN### end -->
+
+<!-- ###IMAGELIST_EMPTY_COLUMN### begin -->
+<td class="tx-album3x-pi1-imagelist-col">
+&nbsp;
+</td>
+<!-- ###IMAGELIST_EMPTY_COLUMN### end -->
+
+<!-- ###IMAGELIST_EMPTY### begin -->
+<div class="tx-album3x-pi1-imagelist">
+	<div class="tx-album3x-pi1-imagelist-wrap">
+		<table class="tx-album3x-pi1-imagelist-table">
+			<tr class="tx-album3x-pi1-imagelist-row">
+				<td class="tx-album3x-pi1-imagelist-col">
+					###EMPTY_ALBUM###
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<!-- ###IMAGELIST_EMPTY### end -->
+
+<!-- ###IMAGE_EMPTY### begin -->
+<div class="tx-album3x-pi1-image">
+	###NO_IMAGE###
+</div>
+<!-- ###IMAGE_EMPTY### end -->
+
+<!-- ###SINGLE_IMAGE### begin -->
+<div class="tx-album3x-pi1-singleimage">
+	<!-- ###SINGLE_IMAGE_IMG### begin -->
+	<img class="tx-album3x-pi1-singleimage-image" src="###IMAGE_URL###" alt="###IMAGE_TITLE###" width="###IMAGE_WIDTH###" height="###IMAGE_HEIGHT###" />
+	<!-- ###SINGLE_IMAGE_IMG### end -->
+	<div class="tx-album3x-pi1-singleimage-title">###IMAGE_TITLE###</div>
+	<div class="tx-album3x-pi1-singleimage-desc">###IMAGE_DESC###</div>
+</div>
+<!-- ###SINGLE_IMAGE### end -->
+
+
+</body>
+</html>

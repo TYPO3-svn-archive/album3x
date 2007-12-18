@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'album3x'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">3X Album</label>
+			<label index="pi1_plus_wiz_description">Image album with thumbnails, mid-size and click-open full size photos</label>
+		</languageKey>
+		<languageKey index="lv" type="array">
+			<label index="pi1_title">3X Albums</label>
+		</languageKey>
+		<languageKey index="ru" type="array">
+			<label index="pi1_title">3X альбом</label>
+		</languageKey>
+	</data>
+</T3locallang>

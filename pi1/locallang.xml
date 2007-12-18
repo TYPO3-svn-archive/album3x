@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_album3x_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="thumbnail.width">Thumbnail width:</label>
+			<label index="thumbnail.height">Thumbnail height:</label>
+			<label index="mid.image.width">Medium image width:</label>
+			<label index="mid.image.height">Medium image height:</label>
+			<label index="storage.page">Image storage page:</label>
+			<label index="cols">Number of columns of images:</label>
+			<label index="rows">Number of rows of images:</label>
+			<label index="template.file">Template file:</label>
+			<label index="empty.album">This album is empty.</label>
+		</languageKey>
+	</data>
+</T3locallang>

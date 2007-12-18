@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'album3x'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_album3x_images">3X Album image</label>
+			<label index="tx_album3x_images.title">Title:</label>
+			<label index="tx_album3x_images.description">Description:</label>
+			<label index="tx_album3x_images.image">Image:</label>
+			<label index="tx_album3x_images.image_thumb">Thumbnail:</label>
+			<label index="tx_album3x_images.image_mid">Mid-size image:</label>
+			<label index="tx_album3x_images.realurl_alias">RealURL alias:</label>
+			<label index="tt_content.list_type_pi1">3X Album</label>
+		</languageKey>
+		<languageKey index="lv" type="array">
+			<label index="tx_album3x_images">3X Albuma bilde</label>
+			<label index="tx_album3x_images.title">Nosakums:</label>
+			<label index="tx_album3x_images.description">Apraksts:</label>
+			<label index="tx_album3x_images.image">Bilde:</label>
+			<label index="tt_content.list_type_pi1">3X Albums</label>
+		</languageKey>
+		<languageKey index="ru" type="array">
+			<label index="tx_album3x_images">Изображение 3X альбома</label>
+			<label index="tx_album3x_images.title">Название:</label>
+			<label index="tx_album3x_images.description">Описание:</label>
+			<label index="tx_album3x_images.image">Изображение:</label>
+			<label index="tt_content.list_type_pi1">3X альбом</label>
+		</languageKey>
+	</data>
+</T3locallang>
