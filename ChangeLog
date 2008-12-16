@@ -1,3 +1,7 @@
+2008-12-16  Dmitry Dulepov  <dmitry@ typo3.org>
+
+	* Small formatting changes
+
 2007-12-18 Dmitry Dulepov  <dmitry@typo3.org>
 
 	* Fixed bug: possible error about undefined classes t3lib_refindex and t3lib_BEfunc
